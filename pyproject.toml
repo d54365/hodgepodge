@@ -1,0 +1,33 @@
+[tool.poetry]
+name = "hodgepodge"
+version = "0.1.0"
+description = ""
+authors = ["drw <ruowei.du@mjk24.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+django = "^5.0.7"
+django-environ = "^0.11.2"
+djangorestframework = "^3.15.2"
+djangorestframework-simplejwt = "^5.3.1"
+celery = "^5.4.0"
+loguru = "^0.7.2"
+mysqlclient = "^2.2.4"
+django-celery-beat = "^2.6.0"
+django-redis = "^5.4.0"
+django-db-connection-pool = "^1.2.5"
+diskcache = "^5.6.3"
+lz4 = "^4.3.3"
+user-agents = "^2.2.0"
+gunicorn = "^22.0.0"
+
+[tool.poetry.dev-dependencies]
+coverage = "^7.6.0"
+django-debug-toolbar = "^4.4.6"
+pre-commit = "^3.7.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

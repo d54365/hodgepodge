@@ -1,0 +1,5 @@
+[run]
+omit =
+    manage.py
+    hodgepodge/urls.py
+    hodgepodge/routers.py
